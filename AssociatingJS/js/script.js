@@ -13,3 +13,9 @@ var isStudent = false; //Boolean Variable
 var firstName = "Joanna";
 
 var phrase = 'I don\'t know \n You\'ll have to ask'; //Escaping character
+
+// Arrays
+
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"];
+var num = 1;
+console.log(muppetNames[num]);
