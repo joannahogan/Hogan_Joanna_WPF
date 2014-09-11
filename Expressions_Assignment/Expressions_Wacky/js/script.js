@@ -24,4 +24,4 @@ console.log(answer2); //Result printed on console
 
 alert("You should be left with a 4-digit number like \"3812\". \n\nUsing your \'Beginning JavaScript\' book, use the first 3 digits as \nthe page number and the last digit as the line number. \n\nEx. \"page 381, line 2\" \n\n\nWhen you are ready for my prediction click OK:"); //Explanation of page number and line number
 
-console.log("ANSWER: 1089\n\nEXCERPT:\n\n\"page multiple times just to advance to the next line, so we use a process called stepping.\""); //Prediction printed on console
+console.log("My prediction is:\n\nEXCERPT: \"page multiple times just to advance to the next line, so we use a process called stepping.\" \nBeginning Javascript: Page 108, Line 9"); //Prediction printed on console
