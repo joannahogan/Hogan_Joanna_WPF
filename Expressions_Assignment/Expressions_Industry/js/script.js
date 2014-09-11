@@ -18,6 +18,8 @@ console.log("New total of " + hoursWorked + " hours worked");
 var charge = hoursWorked * payRate;
 console.log("The current charge is calculated at $" + charge + ".");
 
+var bonusWork = prompt("How many of those hours were fulfilling additional requests?");
+
 
 
 
