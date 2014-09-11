@@ -20,6 +20,10 @@ console.log("The current charge is calculated at $" + charge + ".");
 
 var bonusWork = prompt("How many of those hours were fulfilling additional requests?");
 
+var hoursWorked = hoursWorked - bonusWork;
+console.log("You worked a new total of " + hoursWorked + " standard hours and " + bonusWork + " bonus hours.")
+
+
 
 
 
