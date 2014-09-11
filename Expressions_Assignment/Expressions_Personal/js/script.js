@@ -5,7 +5,7 @@ var seasons = [6, 13, 16, 16]; //Episodes per season in Array
 
 var totalEpisodes = seasons[0] + seasons[1] + seasons[2] + seasons[3]; //Total of episodes per season
 
-console.log("There have been " + totalEpisodes + " total episodes of " + zombies + " in 4 seasons."); //Print of total episodes
+console.log("There have been " + totalEpisodes + " total episodes of " + zombies + " in 4 seasons.\n  Season 1: 6 episodes     Season 3: 16 episodes\n  Season 2: 13 episodes    Season 4: 16 episodes"); //Print of total episodes
 
 var watched = prompt(zombies + " returns to AMC on October 12, 2014. \n\nHow many episodes have you watched to completion?"); //User input how many episodes watched
 var percentage = watched/51 * 100; //Percentage of episodes watched
