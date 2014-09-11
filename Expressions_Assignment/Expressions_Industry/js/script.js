@@ -23,7 +23,9 @@ var bonusWork = prompt("How many of those hours were fulfilling additional reque
 var hoursWorked = hoursWorked - bonusWork;
 console.log("You worked a new total of " + hoursWorked + " standard hours and " + bonusWork + " bonus hours.")
 
+var totalCharge = hoursWorked * payRate + bonusWork * payRate * 1.5;
 
+console.log("The total charge is calculated at $" + totalCharge + ".");
 
 
 
