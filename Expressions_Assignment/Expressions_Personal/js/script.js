@@ -12,6 +12,10 @@ var percentage = watched/51 * 100;
 
 console.log("You have watched " + watched + " episodes of " + zombies + ". That's " + percentage + "%.");
 
+var episodesLeft = totalEpisodes - watched;
+
+var daysLeft = prompt("How many days do you have left to catch up before the season premier?");
+
 
 
 
