@@ -19,3 +19,6 @@ console.log(answer1);
 var number3 = prompt("Now take this result, reverse it, and add the two together.\n\nEnter the reversed number here and I will do the math for you:");
 console.log(number3);
 
+var answer2 = Number(answer1) + Number(number3);
+console.log(answer2);
+
