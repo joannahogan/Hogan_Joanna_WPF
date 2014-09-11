@@ -7,6 +7,14 @@ var experience = prompt("What is your experience level, 1-10?");
 var payRate = experience * 3.5 + 40;
 console.log("According to your experience, you should charge $" + payRate + " per hour.")
 
+var hoursWorked = prompt("How many total hours did you put into the project?");
+console.log(hoursWorked + " total hours");
+
+var learningCurve = prompt("How many of those hours were spent learning new software or fixing mistakes?");
+
+var hoursWorked = hoursWorked - learningCurve;
+console.log("New total of " + hoursWorked + " hours worked");
+
 
 
 
