@@ -10,3 +10,12 @@ console.log(number1);
 var number2 = prompt("Reverse the number and subtract the smaller number from the larger. \n\nEnter the reversed number here and I will do the math for you:");
 console.log(number2);
 
+var answer1 = number1 - number2;
+if (answer1 <0){
+    answer1 = answer1 * -1;
+}
+console.log(answer1);
+
+var number3 = prompt("Now take this result, reverse it, and add the two together.\n\nEnter the reversed number here and I will do the math for you:");
+console.log(number3);
+
