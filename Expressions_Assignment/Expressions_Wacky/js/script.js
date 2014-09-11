@@ -22,3 +22,5 @@ console.log(number3);
 var answer2 = Number(answer1) + Number(number3);
 console.log(answer2);
 
+alert("You should be left with a 4-digit number like \"3812\". \n\nUsing your \'Beginning JavaScript\' book, use the first 3 digits as \nthe page number and the last digit as the line number. \n\nEx. \"page 381, line 2\" \n\n\nWhen you are ready for my prediction click OK:");
+
