@@ -18,14 +18,14 @@ console.log("New total of " + hoursWorked + " hours worked"); //Print of new tot
 var charge = hoursWorked * payRate; //Calculating charge
 console.log("The current charge is calculated at $" + charge + "."); //Print of current charge
 
-var bonusWork = prompt("How many of those hours were fulfilling additional requests?");
+var bonusWork = prompt("How many of those hours were fulfilling additional requests?"); //Additional hours entered
 
-var hoursWorked = hoursWorked - bonusWork;
-console.log("You worked a new total of " + hoursWorked + " standard hours and " + bonusWork + " bonus hours.")
+var hoursWorked = hoursWorked - bonusWork; //New hours worked
+console.log("You worked a new total of " + hoursWorked + " standard hours and " + bonusWork + " bonus hours.") //Print of separate hours worked
 
-var totalCharge = hoursWorked * payRate + bonusWork * payRate * 1.5;
+var totalCharge = hoursWorked * payRate + bonusWork * payRate * 1.5; //Calculate total charge
 
-console.log("The total charge is calculated at $" + totalCharge + ".");
+console.log("The total charge is calculated at $" + totalCharge + "."); //Print total charge to console
 
 
 
