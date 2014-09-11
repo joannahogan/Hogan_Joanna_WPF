@@ -7,3 +7,9 @@ var age; //declaration
 age = 32; //definition
 
 var yearOfBirth = 1970;
+
+var isStudent = false; //Boolean Variable
+
+var firstName = "Joanna";
+
+var phrase = 'I don\'t know \n You\'ll have to ask'; //Escaping character
