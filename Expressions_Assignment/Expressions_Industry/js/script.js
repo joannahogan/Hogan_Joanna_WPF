@@ -10,13 +10,13 @@ console.log("According to your experience, you should charge $" + payRate + " pe
 var hoursWorked = prompt("How many total hours did you put into the project?"); //User input hours worked
 console.log(hoursWorked + " total hours"); //Print hours to console
 
-var learningCurve = prompt("How many of those hours were spent learning new software or fixing mistakes?");
+var learningCurve = prompt("How many of those hours were spent learning new software or fixing mistakes?"); //User enter hours
 
-var hoursWorked = hoursWorked - learningCurve;
-console.log("New total of " + hoursWorked + " hours worked");
+var hoursWorked = hoursWorked - learningCurve; //Learning curve hours subtracted
+console.log("New total of " + hoursWorked + " hours worked"); //Print of new total hours
 
-var charge = hoursWorked * payRate;
-console.log("The current charge is calculated at $" + charge + ".");
+var charge = hoursWorked * payRate; //Calculating charge
+console.log("The current charge is calculated at $" + charge + "."); //Print of current charge
 
 var bonusWork = prompt("How many of those hours were fulfilling additional requests?");
 
