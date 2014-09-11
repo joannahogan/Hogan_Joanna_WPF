@@ -16,7 +16,10 @@ var episodesLeft = totalEpisodes - watched;
 
 var daysLeft = prompt("How many days do you have left to catch up before the season premier?");
 
+var dailyEpisodes = daysLeft/episodesLeft;
+var weeklyEpisodes = dailyEpisodes * 7;
 
+console.log("To finish the remaining " + episodesLeft + " episodes, you would have to watch " + weeklyEpisodes + " per week or " + dailyEpisodes + " per day.");
 
 
 
