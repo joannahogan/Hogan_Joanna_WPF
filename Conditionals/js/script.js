@@ -1,13 +1,11 @@
 /*** Joanna Hogan 9/15/14 Conditionals ***/
 
 
-//Conditional Logic
+//Relational Expression
 
-var oldEnough = false;
+var kidHeight = 50;
+var minHeight = 48;
 
-if(oldEnough){
+if(kidHeight > minHeight){
     console.log("You can ride the coaster!");
 }
-
-console.log("what comes after");
-
