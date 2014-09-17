@@ -1,16 +1,14 @@
-/*** Joanna Hogan 9/15/14 Conditionals ***/
+/*** Joanna Hogan 9/17/14 Conditionals ***/
 
 
-//If and Else
+//Logical Operators
 
-var kidHeight = 52;
-var minHeight = 48;
-var withParHeight = 45;
+var budget = 300;
+var iPhonePrice = 199.99;
+var paycheck = 200;
 
-if(kidHeight > minHeight){
-    console.log("You can ride the coaster!");
-}else if(kidHeight > withParHeight){
-    console.log("You can ride, but only with a parent.");
+if(iPhonePrice < budget && paycheck > 300){
+    console.log("We can buy the phone.");
 }else{
-    console.log("Sorry kid, you've got some growing to do!");
+    console.log("No phone for you!");
 }
