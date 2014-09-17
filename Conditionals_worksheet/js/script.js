@@ -20,6 +20,48 @@ if (userInput === "c"){
 console.log("The temperature is " + unit + "° " + degrees);
 
 
+// Grade Letter Calculator
+
+
+var userInput = prompt("Enter number to determine Letter Grade.");
+
+if (userInput >= 90){
+    var letterGrade = "A";
+}else if(userInput >= 80){
+    var letterGrade = "B";
+}else if(userInput >= 70){
+    var letterGrade = "C";
+}else if(userInput >= 60){
+    var letterGrade = "D";
+}else if(userInput < 60){
+    var letterGrade = "F";
+}
+
+console.log("You have a " + userInput + "%, which means you have earned a(n) " + letterGrade + " in the class!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
