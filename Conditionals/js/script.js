@@ -1,14 +1,13 @@
 /*** Joanna Hogan 9/17/14 Conditionals ***/
 
 
-//Logical Operators
+//ternary operators
 
-var budget = 300;
-var iPhonePrice = 199.99;
-var paycheck = 200;
 
-if(iPhonePrice < budget && paycheck > 300){
-    console.log("We can buy the phone.");
+/*if(gpa > 2.0){
+    console.log("You can graduate!");
 }else{
-    console.log("No phone for you!");
-}
+    console.log("GPA too low.");
+}*/
+
+(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA too low.");
