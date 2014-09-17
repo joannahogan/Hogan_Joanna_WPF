@@ -40,6 +40,22 @@ if (userInput >= 90){
 console.log("You have a " + userInput + "%, which means you have earned a(n) " + letterGrade + " in the class!");
 
 
+//Movie Ticket Price
+
+var movieTime = 1900;
+var age = 48;
+var ticketPrice = "$12.00";
+
+if (movieTime > 1459 && movieTime < 1701){
+    var ticketPrice = "$7.00";
+}else if(age >= 55 || age < 10){
+    var ticketPrice = "$7.00";
+}
+
+console.log("The ticket price is " + ticketPrice);
+
+
+
 
 
 
