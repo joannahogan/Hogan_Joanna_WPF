@@ -5,8 +5,8 @@
 var playerOne = prompt("Player 1: Do you choose rock, paper, scissors, lizard, or spock?");//User prompt for input
 var playerTwo = prompt("Player 2: Do you choose rock, paper, scissors, lizard, or spock??");//User prompt for input
 
-if (playerOne === "" || playerTwo === ""){
-    console.log("You forgot to type your selection.");
+if (playerOne === "" || playerTwo === ""){ //if user does not input data
+    console.log("You forgot to type your selection.");  //reminder to input data
 }
 
 if (playerOne === "rock" && playerTwo === "scissors"){ //User inputs rock and scissors
