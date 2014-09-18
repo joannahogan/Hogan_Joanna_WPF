@@ -11,6 +11,20 @@ if (playerOne === "rock" && playerTwo === "scissors"){  //if statement, when roc
     console.log("Scissors cust Paper!");
 }else if (playerOne === "paper" && playerTwo === "rock") {
     console.log("Paper covers Rock!");
+}else if (playerOne === "rock" && playerTwo === "lizard") {
+    console.log("Rock crushes Lizard!");
+}else if (playerOne === "lizard" && playerTwo === "spock") {
+    console.log("Lizard poisons Spock!");
+}else if (playerOne === "spock" && playerTwo === "scissors") {
+    console.log("Spock smashes Scissors!");
+}else if (playerOne === "scissors" && playerTwo === "lizard") {
+    console.log("Scissors decapitates Lizard!");
+}else if (playerOne === "lizard" && playerTwo === "paper") {
+    console.log("Lizard eats Paper!");
+}else if (playerOne === "paper" && playerTwo === "spock") {
+    console.log("Paper disproves Spock!");
+}else if (playerOne === "spock" && playerTwo === "rock") {
+    console.log("Spock vaporizes Rock!");
 }
 
 
