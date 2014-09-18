@@ -2,8 +2,8 @@
 
 
 
-var playerOne = prompt("Player 1: Do you choose Rock, Paper, Scissors, Lizard, or Spock?");//User prompt for input
-var playerTwo = prompt("Player 2: Do you choose Rock, Paper, Scissors, Lizard, or Spock?");//User prompt for input
+var playerOne = prompt("Player 1: Do you choose rock, paper, scissors, lizard, or spock?");//User prompt for input
+var playerTwo = prompt("Player 2: Do you choose rock, paper, scissors, lizard, or spock??");//User prompt for input
 
 if (playerOne === "rock" && playerTwo === "scissors"){
     console.log("Rock crushes Scissors!");
@@ -25,7 +25,7 @@ if (playerOne === "rock" && playerTwo === "scissors"){
     console.log("Paper disproves Spock!");
 }else if (playerOne === "spock" && playerTwo === "rock") {
     console.log("Spock vaporizes Rock!");
-}ELSE if (playerTwo === "rock" && playerOne === "scissors"){
+}else if (playerTwo === "rock" && playerOne === "scissors"){
     console.log("Rock crushes Scissors!");
 }else if (playerTwo === "scissors" && playerOne === "paper") {
     console.log("Scissors cust Paper!");
