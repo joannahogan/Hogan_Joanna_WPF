@@ -7,6 +7,12 @@ var age = prompt("Enter your age."); //Prompt user for age
 var member = prompt("Are you a member of this club?");//Prompt user for membership
 var withSponsor = prompt("Are you with a sponsor");//prompt user for sponsorship
 
+if (age === ""){  //user did not enter age
+    console.log("You did not submit all required information."); //print to console
+}else if(member === "" || withSponsor === ""){  //user did not enter member info
+    console.log("You did not submit all required information.");  //print to console
+}
+
 (age >= 21) ? console.log("You are old enough to enter the private club.") : console.log("You are not old enough for this scene."); //Ternary statement
 
 
