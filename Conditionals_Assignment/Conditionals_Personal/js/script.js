@@ -7,6 +7,10 @@ var starbucks = prompt("Did you go to Starbucks this morning?");
 var skiplunch = prompt("Did you skip lunch today?");
 
 
+if (starbucks === "no" || skiplunch === "yes") {
+    console.log("You can go to the movies!");
+}
+
 
 
 
