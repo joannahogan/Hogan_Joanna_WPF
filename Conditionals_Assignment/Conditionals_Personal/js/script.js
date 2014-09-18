@@ -1,8 +1,9 @@
 /*** Joanna Hogan  9/18/14  Conditionals Personal ***/
 
 
-var
+// If I have don't have Starbucks or I skip lunch, I can go to the movies
 
+var starbucks = prompt("Did you go to Starbucks this morning?");
 
 
 
