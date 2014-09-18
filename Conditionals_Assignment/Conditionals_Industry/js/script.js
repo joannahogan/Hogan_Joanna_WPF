@@ -1,6 +1,8 @@
 /*** Joanna Hogan  9/17/14  Conditionals Industry ***/
 
 
+//Private club example that requires age and membership
+
 var age = 29;
 var member = false;
 var withSponsor = true;
