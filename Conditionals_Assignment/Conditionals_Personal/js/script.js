@@ -9,6 +9,8 @@ var skiplunch = prompt("Did you skip lunch today?");
 
 if (starbucks === "no" || skiplunch === "yes") {
     console.log("You can go to the movies!");
+} else {
+    console.log("Sorry, you don't have enough money for the movies today.");
 }
 
 
