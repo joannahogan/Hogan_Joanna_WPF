@@ -22,3 +22,8 @@ function calcBottle(x,y) {
 
 
 
+if (sodaSize == "can"){
+    calcCan(twelveOz,howMany);
+}else if (sodaSize == "bottle") {
+    calcBottle(twentyOz,howMany);
+}
