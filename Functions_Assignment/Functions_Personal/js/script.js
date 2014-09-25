@@ -13,11 +13,13 @@ var sodaSize = prompt("Do you typically drink soda from a can or bottle?");
 function calcCan(x,y) {
     var amtSugar = x * y * weeks;
     console.log("You consume " + amtSugar + " grams of sugar per year.");
+    return amtSugar;
 }
 
 function calcBottle(x,y) {
     var amtSugar = x * y * weeks;
     console.log("You consume " + amtSugar + " grams of sugar per year.");
+    return amtSugar;
 }
 
 
