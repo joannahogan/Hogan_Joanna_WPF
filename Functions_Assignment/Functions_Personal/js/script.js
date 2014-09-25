@@ -22,10 +22,11 @@ function calcBottle(x,y) {
     return amtSugar;
 }
 
-
-
 if (sodaSize == "can"){
     var total = calcCan(twelveOz,howMany);
 }else if (sodaSize == "bottle") {
     var total = calcBottle(twentyOz,howMany);
 }
+
+var sugarCubes = total/4;
+console.log("That's " + sugarCubes + " sugar cubes!");
