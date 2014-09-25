@@ -25,7 +25,7 @@ function calcBottle(x,y) {
 
 
 if (sodaSize == "can"){
-    calcCan(twelveOz,howMany);
+    var total = calcCan(twelveOz,howMany);
 }else if (sodaSize == "bottle") {
-    calcBottle(twentyOz,howMany);
+    var total = calcBottle(twentyOz,howMany);
 }
