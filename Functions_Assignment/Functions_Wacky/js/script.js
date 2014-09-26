@@ -16,7 +16,11 @@ var howMuchCake = cake(guests, servingSize);
 if (servings == "yes"){
     var total = howMuchCake * 2;
     console.log("You will need " + total + " square inches of cake.");
-} 
+} else {
+    var total = howMuchCake;
+    console.log("You will need " + total + " square inches of cake.");
+}
+
 
 
 
