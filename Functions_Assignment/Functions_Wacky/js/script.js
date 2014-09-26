@@ -11,6 +11,8 @@ function cake(g,s){
     return totalCake;
 }
 
+var howMuchCake = cake(guests, servingSize);
+
 
 
 
