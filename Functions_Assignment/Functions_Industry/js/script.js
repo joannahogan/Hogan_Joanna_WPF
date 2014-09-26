@@ -10,7 +10,8 @@ var alt = prompt("What is the altitude of the trapezoid?"); //prompt for height
 
 
 var trapArea = function (a,b,h) { //Anonymous function
-    var area = (a+b)h/2; //calculate area
+    var mult = (a+b)h; //calculate area
+    var area = mult/2;
     return area;  //return value
 }
 
