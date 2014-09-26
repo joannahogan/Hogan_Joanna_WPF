@@ -2,6 +2,13 @@
 
 
 
+alert("The Area of a Trapezoid is the average of the two base lengths times the altitude.");
+var baseOne = prompt("How many meters is the length of base 1?");
+var baseTwo = prompt("How many meters is the length of base 2?");
+var alt = prompt("What is the altitude of the trapezoid?");
+
+
+
 
 
 
