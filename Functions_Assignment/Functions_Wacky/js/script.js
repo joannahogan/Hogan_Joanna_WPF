@@ -13,12 +13,12 @@ function cake(g,s){ //function cake
 
 var howMuchCake = cake(guests, servingSize);  //call function
 
-if (servings == "yes"){ 
-    var total = howMuchCake * 2;
-    console.log("You will need " + total + " square inches of cake.");
-} else {
-    var total = howMuchCake;
-    console.log("You will need " + total + " square inches of cake.");
+if (servings == "yes"){ // if statement
+    var total = howMuchCake * 2; //calculate total
+    console.log("You will need " + total + " square inches of cake."); //print to console
+} else { //else statement
+    var total = howMuchCake; //calculate total
+    console.log("You will need " + total + " square inches of cake."); //print to console
 }
 
 
