@@ -16,7 +16,7 @@ var trapArea = function (a,b,h) {
 
 var total = trapArea(baseOne,baseTwo,alt);
 
-
+console.log("The area of your trapezoid is " + total + " square meters.");
 
 
 
