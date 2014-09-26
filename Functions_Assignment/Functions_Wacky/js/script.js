@@ -6,6 +6,10 @@ var servings = prompt("Do you want to let your guests have a second helping?");
 
 var servingSize = 8;
 
+function cake(g,s){
+    var totalCake = g * s;
+    return totalCake;
+}
 
 
 
