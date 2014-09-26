@@ -10,8 +10,7 @@ var alt = prompt("What is the altitude of the trapezoid?"); //prompt for height
 
 
 var trapArea = function (a,b,h) { //Anonymous function
-    var mult = (a+b)h; //calculate area
-    var area = mult/2;
+    var area = (a+b)/2 * h; //calculate area
     return area;  //return value
 }
 
@@ -19,9 +18,7 @@ var total = trapArea(baseOne,baseTwo,alt);  //call function, store in total
 
 console.log("The area of your trapezoid is " + total + " square meters."); //print to console
 
-
-
-
+//Can't figure out how to make it calculate correctly
 
 
 
