@@ -14,6 +14,8 @@ var trapArea = function (a,b,h) {
     return area;
 }
 
+var total = trapArea(baseOne,baseTwo,alt);
+
 
 
 
